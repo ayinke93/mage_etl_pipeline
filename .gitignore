@@ -1,0 +1,9 @@
+# Ignore environment and JSON configuration files in the "mage" directory
+mage/*.env
+mage/*.json
+
+# Ignore the "mage_data" directory in the "mage" directory
+mage/mage_data/
+
+# Ignore the "mage_data" directory in the "modules/2_workflow_orchestration/code" directory
+modules/2_workflow_orchestration/code/mage_data/
